@@ -1,5 +1,5 @@
 import os
-from expycted import expect
+from expycted import expect # type: ignore
 import pytest
 
 from pass_by_value import pass_by_value
