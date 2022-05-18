@@ -11,7 +11,7 @@ classifiers = [
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: ^3.9',
 ]
-packages = [{ include = "pass_by_val", from = "src" }]
+packages = [{ include = "pass_by_value", from = "src" }]
 
 
 [tool.poe.tasks]
