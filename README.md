@@ -14,6 +14,7 @@ from pass_by_value import pass_by_value
 @pass_by_value
 def modify_list(lst):
     lst[0] = 'a'
+    return lst
 
 original_list = [1,2,3,4,5]
 
