@@ -9,7 +9,7 @@ readme = 'README.md'
 keywords = ["python"]
 classifiers = [
     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: ^3.9',
+    'Programming Language :: Python :: 3.9',
 ]
 packages = [{ include = "pass_by_value", from = "src" }]
 
