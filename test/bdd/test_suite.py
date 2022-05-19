@@ -1,5 +1,5 @@
 import os
-from expycted import expect # type: ignore
+from expycted import expect  # type: ignore
 import pytest
 
 from pass_by_value import pass_by_value
@@ -33,7 +33,7 @@ def test_mutation_list():
     def mutate(original: list):
         original[2] = "a"
 
-    mutate(original)
+    mutate(original=original)
 
     expect(original).to.equal([1, 2, 3, 4, 5])
 
